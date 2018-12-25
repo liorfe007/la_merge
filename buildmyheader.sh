@@ -13,12 +13,13 @@ read script_desc
 
 touch $script_name
 chmod 755 $script_name
+mydate=`date +'%d/%m/%Y'`
 
 cat >$script_name  <<EOF
 #!/usr/bin/env bash
 #####################
 #Author : $dev_name   #
-#Date : $DATE       #
+#Date : $mydate       #
 #Description: $script_desc   #
 ######################"
 EOF
