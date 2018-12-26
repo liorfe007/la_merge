@@ -6,6 +6,12 @@ if [ -e $script_name ]; then
    echo "File $script_name already exists!"
    exit 0
 fi
+
+#######
+#check if the file is with .sh
+
+
+
 echo "Enter your name:"
 read dev_name
 echo "Enter description:"
